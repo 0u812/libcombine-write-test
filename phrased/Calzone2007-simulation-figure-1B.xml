@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created by phraSED-ML version v1.0.5 with libSBML version 5.15.0. -->
-<sedML xmlns="http://sed-ml.org/sed-ml/level1/version2" level="1" version="2">
+<sedML xmlns="http://sed-ml.org/" level="1" version="1">
   <listOfSimulations>
     <uniformTimeCourse id="sim1" initialTime="0" outputStartTime="0" outputEndTime="250" numberOfPoints="1000">
       <algorithm kisaoID="KISAO:0000019"/>
@@ -23,7 +23,7 @@
     </dataGenerator>
     <dataGenerator id="plot_0_0_1" name="Wee1c">
       <listOfVariables>
-        <variable id="Wee1c" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Wee1c']" taskReference="task1" modelReference="model1"/>
+        <variable id="Wee1c" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Wee1c']" taskReference="task1"/>
       </listOfVariables>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
         <ci> Wee1c </ci>
@@ -31,7 +31,7 @@
     </dataGenerator>
     <dataGenerator id="plot_0_1_1" name="MPFc">
       <listOfVariables>
-        <variable id="MPFc" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='MPFc']" taskReference="task1" modelReference="model1"/>
+        <variable id="MPFc" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='MPFc']" taskReference="task1"/>
       </listOfVariables>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
         <ci> MPFc </ci>
@@ -39,7 +39,7 @@
     </dataGenerator>
     <dataGenerator id="plot_0_2_1" name="StgPc">
       <listOfVariables>
-        <variable id="StgPc" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='StgPc']" taskReference="task1" modelReference="model1"/>
+        <variable id="StgPc" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='StgPc']" taskReference="task1"/>
       </listOfVariables>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
         <ci> StgPc </ci>
@@ -47,7 +47,7 @@
     </dataGenerator>
     <dataGenerator id="plot_0_3_1" name="CycBT">
       <listOfVariables>
-        <variable id="CycBT" target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='CycBT']" taskReference="task1" modelReference="model1"/>
+        <variable id="CycBT" target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='CycBT']" taskReference="task1"/>
       </listOfVariables>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
         <ci> CycBT </ci>
@@ -55,7 +55,7 @@
     </dataGenerator>
     <dataGenerator id="plot_1_0_1" name="Wee1n">
       <listOfVariables>
-        <variable id="Wee1n" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Wee1n']" taskReference="task1" modelReference="model1"/>
+        <variable id="Wee1n" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='Wee1n']" taskReference="task1"/>
       </listOfVariables>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
         <ci> Wee1n </ci>
@@ -63,7 +63,7 @@
     </dataGenerator>
     <dataGenerator id="plot_1_1_1" name="MPFn">
       <listOfVariables>
-        <variable id="MPFn" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='MPFn']" taskReference="task1" modelReference="model1"/>
+        <variable id="MPFn" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='MPFn']" taskReference="task1"/>
       </listOfVariables>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
         <ci> MPFn </ci>
@@ -71,7 +71,7 @@
     </dataGenerator>
     <dataGenerator id="plot_1_2_1" name="StgPn">
       <listOfVariables>
-        <variable id="StgPn" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='StgPn']" taskReference="task1" modelReference="model1"/>
+        <variable id="StgPn" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='StgPn']" taskReference="task1"/>
       </listOfVariables>
       <math xmlns="http://www.w3.org/1998/Math/MathML">
         <ci> StgPn </ci>
