@@ -1,13 +1,13 @@
-from tecombine import CombineArchive
+from tecombine import CombineArchive, KnownFormats
 
-archive = CombineArchive
+archive = CombineArchive()
 
 # Add SBML
 archive.addFile(
     './model/BIOMD0000000144.xml', # source path
     './model/BIOMD0000000144.xml', # dest path
     KnownFormats.lookupFormat('sbml'),
-    True # master attribute
+    False # master attribute
 )
 
 # Add SED-ML
