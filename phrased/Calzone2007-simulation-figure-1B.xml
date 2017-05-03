@@ -7,7 +7,7 @@
     </uniformTimeCourse>
   </listOfSimulations>
   <listOfModels>
-    <model id="model1" language="urn:sedml:language:sbml.level-2.version-1" source="../model/BIOMD0000000144" />
+    <model id="model1" language="urn:sedml:language:sbml.level-2.version-1" source="../model/BIOMD0000000144.xml" />
   </listOfModels>
   <listOfTasks>
     <task id="task1" modelReference="model1" simulationReference="sim1" />
