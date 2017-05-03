@@ -13,6 +13,7 @@ phrasedml.convertString(sedml_in)
 phrased_str = phrasedml.getLastPhraSEDML()
 
 phrasedml.convertString(phrased_str)
+phrasedml.addDotXMLToModelSources()
 
 sedml_out = phrasedml.getLastSEDML()
 
