@@ -3,14 +3,14 @@
 <sedML level="1" version="2" xmlns="http://sed-ml.org/sed-ml/level1/version2">
   <listOfSimulations>
     <uniformTimeCourse id="sim1" initialTime="0" outputStartTime="0" outputEndTime="250" numberOfPoints="1000">
-      <algorithm kisaoID="KISAO:0000019"/>
+      <algorithm kisaoID="KISAO:0000019" />
     </uniformTimeCourse>
   </listOfSimulations>
   <listOfModels>
-    <model id="model1" language="urn:sedml:language:sbml.level-2.version-1" source="../model/BIOMD0000000144"/>
+    <model id="model1" language="urn:sedml:language:sbml.level-2.version-1" source="../model/BIOMD0000000144" />
   </listOfModels>
   <listOfTasks>
-    <task id="task1" modelReference="model1" simulationReference="sim1"/>
+    <task id="task1" modelReference="model1" simulationReference="sim1" />
   </listOfTasks>
   <listOfDataGenerators>
     <dataGenerator id="time" name="time">
