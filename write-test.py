@@ -1,4 +1,4 @@
-from libcombine import CombineArchive, KnownFormats
+from tecombine import CombineArchive, KnownFormats
 
 # Create archive with original SED-ML
 archive_sedml = CombineArchive()
