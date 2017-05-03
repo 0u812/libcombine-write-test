@@ -1,4 +1,4 @@
-from tecombine import CombineArchive, KnownFormats
+from libcombine import CombineArchive, KnownFormats
 
 archive = CombineArchive()
 
